@@ -1,0 +1,23 @@
+.container {
+    position: flu;
+    width: 80%;
+    height: 100vh; /* Define a altura da div como 100% da altura da viewport */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    margin-top: 30px;
+    min-height: 100vh;
+  }
+  
+  #logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #logo img {
+    max-width: 50%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 25%; /* Garante que a imagem não ultrapasse a altura da div */
+  }
+  
