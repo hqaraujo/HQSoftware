@@ -51,7 +51,7 @@ const Login = () => {
             </label>
             <a href="#">Esqueceu sua senha?</a>
           </div>
-          <button type="submit" ><a href="">Login</a></button>
+          <button type="submit" >Login</button>
           <div className="signup-link">
             <p>
               Não tem uma conta? <a href="#
